@@ -92,7 +92,7 @@ h6 {
 }
 
 body {
-		background: url("../img/pic/background.jpg") no-repeat;
+		background: url("../img/pic/background5.png") no-repeat;
 		background-size: 100%;
 		color: #fff;
 		font-size: 14px;
@@ -894,4 +894,74 @@ body.ie .ibg img {
 		line-height: 22px;
 		letter-spacing: 0em;
 		margin-right: 23px;
+}
+
+.head {
+		padding-top: 330px;
+		margin: 0 118px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+}
+.head .head-line {
+		margin-top: 80px;
+		width: 118px;
+		height: 0px;
+		border: 2px solid #ffffff;
+		-webkit-transform: rotate(90deg);
+		        transform: rotate(90deg);
+}
+.head .head-right .input {
+		background-color: #101010;
+		border: 0.5px solid rgba(255, 255, 255, 0.08);
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		border-radius: 2px;
+		font-family: Gilroy;
+		font-style: normal;
+		font-weight: 250;
+		font-size: 18px;
+		line-height: 24px;
+		color: rgba(255, 255, 255, 0.1);
+}
+.head .head-right .inp1 {
+		width: 340px;
+		height: 50px;
+		margin-bottom: 18px;
+}
+.head .head-right .form-two {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+}
+.head .head-right .inp2 {
+		width: 160px;
+		height: 50px;
+		margin-bottom: 18px;
+}
+.head .head-right .inp3 {
+		width: 160px;
+		height: 50px;
+		margin-bottom: 18px;
+}
+.head .head-right .forms {
+		margin-top: 26px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+}
+.head .head-right .btn {
+		margin-left: 20px;
+		height: 118px;
+		width: 92px;
+		background-color: #29d3ca;
 }

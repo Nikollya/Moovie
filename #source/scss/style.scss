@@ -31,7 +31,7 @@ $md4: 479.98;
 //<ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>===============================================================================================
 @import "null.scss";
 body {
-	background: url("../img/pic/background.jpg") no-repeat;
+	background: url("../img/pic/background5.png") no-repeat;
 	background-size: 100%;
 	//ackground: linear-gradient(0deg, #000000 43.75%, rgba(0, 0, 0, 0) 56.63%);
 	color: #fff;
@@ -92,6 +92,70 @@ body {
 //</ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>====================================================================================================
 
 //<ОСНОВНОЙ БЛОК>====================================================================================================
+.head {
+	padding-top: 330px;
+	margin: 0 118px;
+	display: flex;
+	justify-content: space-between;
+	.head-left {
+	}
+
+	.head-line {
+		margin-top: 80px;
+		width: 118px;
+		height: 0px;
+
+		border: 2px solid #ffffff;
+		transform: rotate(90deg);
+	}
+
+	.head-right {
+		.input {
+			background-color: #101010;
+			border: 0.5px solid rgba(255, 255, 255, 0.08);
+			box-sizing: border-box;
+			border-radius: 2px;
+			font-family: Gilroy;
+			font-style: normal;
+			font-weight: 250;
+			font-size: 18px;
+			line-height: 24px;
+			color: rgba(255, 255, 255, 0.1);
+		}
+		.inp1 {
+			width: 340px;
+			height: 50px;
+			margin-bottom: 18px;
+		}
+		.form-two {
+			display: flex;
+			justify-content: space-between;
+		}
+		.inp2 {
+			width: 160px;
+			height: 50px;
+			margin-bottom: 18px;
+		}
+		.inp3 {
+			width: 160px;
+			height: 50px;
+			margin-bottom: 18px;
+		}
+		.form__btn {
+		}
+		.forms {
+			margin-top: 26px;
+			display: flex;
+			justify-content: space-between;
+		}
+		.btn {
+			margin-left: 20px;
+			height: 118px;
+			width: 92px;
+			background-color: #29d3ca;
+		}
+	}
+}
 
 //====================================================================================================
 
