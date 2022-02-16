@@ -864,6 +864,7 @@ body.ie .ibg img {
 		        align-items: center;
 		height: 60px;
 		margin-top: 20px;
+		margin-bottom: 20px;
 }
 .header__row .header__logo > .logo {
 		height: 60px;
@@ -897,7 +898,7 @@ body.ie .ibg img {
 }
 
 .head {
-		padding-top: 330px;
+		padding-top: 140px;
 		margin: 0 118px;
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -919,13 +920,48 @@ body.ie .ibg img {
 		border: 0.5px solid rgba(255, 255, 255, 0.08);
 		-webkit-box-sizing: border-box;
 		        box-sizing: border-box;
-		border-radius: 2px;
-		font-family: Gilroy;
+		border-radius: 50px;
 		font-style: normal;
-		font-weight: 250;
+		font-weight: 500;
 		font-size: 18px;
 		line-height: 24px;
-		color: rgba(255, 255, 255, 0.1);
+		color: white;
+}
+.head .head-right .input input {
+		border-radius: 50px;
+}
+.head .head-right .form-1 {
+		position: relative;
+}
+.head .head-right .form-1::after {
+		content: "";
+		position: absolute;
+		width: 0px;
+		height: 5px;
+		right: 100%;
+		bottom: 0;
+		background-color: #29D3CA;
+		-webkit-transition: all ease-in-out 0.2s;
+		transition: all ease-in-out 0.2s;
+}
+.head .head-right .form-1:hover::after {
+		width: 100%;
+		right: 0;
+}
+.head .head-right ::-webkit-input-placeholder {
+		opacity: 0.1;
+}
+.head .head-right ::-moz-placeholder {
+		opacity: 0.1;
+}
+.head .head-right :-ms-input-placeholder {
+		opacity: 0.1;
+}
+.head .head-right ::-ms-input-placeholder {
+		opacity: 0.1;
+}
+.head .head-right ::placeholder {
+		opacity: 0.1;
 }
 .head .head-right .inp1 {
 		width: 340px;
@@ -961,7 +997,7 @@ body.ie .ibg img {
 }
 .head .head-right .btn {
 		margin-left: 20px;
-		height: 118px;
-		width: 92px;
-		background-color: #29d3ca;
+		width: 102px;
+		height: 48px;
+		background: none;
 }

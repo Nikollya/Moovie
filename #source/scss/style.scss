@@ -93,7 +93,7 @@ body {
 
 //<ОСНОВНОЙ БЛОК>====================================================================================================
 .head {
-	padding-top: 330px;
+	padding-top: 140px;
 	margin: 0 118px;
 	display: flex;
 	justify-content: space-between;
@@ -114,13 +114,39 @@ body {
 			background-color: #101010;
 			border: 0.5px solid rgba(255, 255, 255, 0.08);
 			box-sizing: border-box;
-			border-radius: 2px;
-			font-family: Gilroy;
+			border-radius: 50px;
 			font-style: normal;
-			font-weight: 250;
+			font-weight: 500;
 			font-size: 18px;
 			line-height: 24px;
-			color: rgba(255, 255, 255, 0.1);
+			color: rgba(255, 255, 255, 1);
+			input {
+				border-radius: 50px;
+			}
+		}
+		.form-1 {
+			position: relative;
+		}
+		.form-1:hover {
+			
+		}
+		.form-1::after {
+			content: '';
+			position: absolute;
+			width: 0px;
+			height: 5px;
+			right: 100%;
+			bottom:0;
+			background-color: #29D3CA;
+			transition: all ease-in-out .2s;
+		}
+		.form-1:hover::after{
+			width: 100%;
+			right: 0;
+		}
+
+		::placeholder {
+			opacity: 0.1;
 		}
 		.inp1 {
 			width: 340px;
@@ -150,9 +176,9 @@ body {
 		}
 		.btn {
 			margin-left: 20px;
-			height: 118px;
-			width: 92px;
-			background-color: #29d3ca;
+			width: 102px;
+			height: 48px;
+			background: none;
 		}
 	}
 }
