@@ -92,8 +92,8 @@ h6 {
 }
 
 body {
-		background-color: #000;
-		background: url("../img/pic/background5.png") no-repeat;
+		background: #000;
+		background: url("../img/pic/background5.png");
 		background-size: 100%;
 		color: #fff;
 		font-size: 14px;
@@ -865,6 +865,14 @@ body.ie .ibg img {
 		position: fixed;
 		right: 37px;
 		top: 31px;
+		opacity: 0.4;
+		-webkit-transition: 0.5s ease-in-out;
+		transition: 0.5s ease-in-out;
+}
+.menu:hover {
+		opacity: 1;
+		-webkit-transition: 0.5s ease-in-out;
+		transition: 0.5s ease-in-out;
 }
 
 .header__row {
@@ -893,13 +901,42 @@ body.ie .ibg img {
 		letter-spacing: 0em;
 		text-align: center;
 		opacity: 0.4;
+		-webkit-transition: 0.5s ease-in-out;
+		transition: 0.5s ease-in-out;
+}
+.logo-text a:hover {
+		opacity: 1;
+		-webkit-transition: 0.5s ease-in-out;
+		transition: 0.5s ease-in-out;
 }
 
-.language-list {
+footer {
+		background-color: #000;
+}
+footer .footer__row {
+		margin: 0 30px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		height: 53px;
+}
+footer .social-list {
+		margin-right: 30px;
+}
+footer .social-list a {
+		margin: 0 9px;
+}
+footer .language-list {
 		margin-right: 7px;
 }
-.language-list a {
-		color: #29d3ca;
+footer .language-list a {
+		color: #fff;
 		font-family: Montserrat;
 		font-size: 18px;
 		font-style: normal;
@@ -908,7 +945,12 @@ body.ie .ibg img {
 		letter-spacing: 0em;
 		margin-right: 23px;
 }
-
+footer .language-list a:hover {
+		color: #29d3ca;
+}
+footer .language-list .active_lang {
+		color: #29d3ca;
+}
 .head {
 		padding-top: 140px;
 		margin: 0 118px;
@@ -1027,8 +1069,10 @@ body.ie .ibg img {
 }
 
 .cards {
+		background: #000;
 		margin: 0 118px;
-		margin-bottom: 1150px;
+		margin-bottom: 115px;
+		margin-top: -100px;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
