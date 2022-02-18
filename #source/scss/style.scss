@@ -198,16 +198,73 @@ body {
 
 //====================================================================================================
 .cards {
+	margin: 0 118px;
+	margin-bottom: 1150px;
 	display: flex;
 	justify-content:space-between;
-	margin: 0 118px;
+	.card_title {
+		font-size: 48px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 57px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+	.card_text {
+		margin: 0 auto;
+		width: 225px;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 16px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+	
 }
 .card_d {
 	width: 265px;
-	height: 210px;
+	height: 368px;
+	text-align: center;
+	.card_img {
+		margin-top: 42px;
+		
+	}
 }
 .card_u {
+	.card_img {
+		margin-top: 35px;
+		margin-bottom: 57px;
+	}
+	text-align: center;
+}
+.card_sub_1 {
+	.card_title {
+		padding-top: 24px;
+		padding-bottom: 30px;
+	}
 	width: 265px;
 	height: 210px;
+	background: url("../img/pic/card_find_main.png");
 }
+.card_sub_2 {
+	.card_title{
+		padding-top: 33px;
+		padding-bottom: 30px;
+	}
+	width: 265px;
+	height: 210px;
+	background: url("../img/pic/card_rand_main.png");
+}
+.card_sub_3 {
+	.card_title {
+		padding-top: 24px;
+		padding-bottom: 30px;
+	}
+	width: 265px;
+	height: 210px;
+	background: url("../img/pic/card_moovie_main.png");
+}
+
+
 //</ОСНОВНОЙ БЛОК>====================================================================================================
